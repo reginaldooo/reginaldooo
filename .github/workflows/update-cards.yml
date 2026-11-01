@@ -2,7 +2,7 @@ name: Update profile cards
 
 on:
   schedule:
-    - cron: '30 17 * * *' # 00:30 WIB
+    - cron: '30 5,11,17,23 * * *' # every 6 hours, 00:30 / 06:30 / 12:30 / 18:30 WIB
   workflow_dispatch:
 
 permissions:

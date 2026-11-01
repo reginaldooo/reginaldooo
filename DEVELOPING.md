@@ -14,7 +14,7 @@ GH_TOKEN=$(gh auth token) npm run generate   # real cards into profile-output/
 1. Create a public repo named exactly like the username (`reginaldooo/reginaldooo`) and push this project.
 2. Add a repo secret `GH_STATS_TOKEN`: a classic personal access token with `read:user` and `repo` scopes. It is only used to read counts; no repo names are written to the output.
 3. Turn on **Include private contributions on my profile** (profile, contribution graph, Contribution settings). Without it GitHub's API hides private commits.
-4. Run the `Update profile cards` workflow once (Actions, Run workflow). It then refreshes daily.
+4. Run the `Update profile cards` workflow once (Actions, Run workflow). It then refreshes every 6 hours.
 
 ## Notes
 

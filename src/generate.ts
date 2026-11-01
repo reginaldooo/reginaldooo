@@ -1,9 +1,11 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { buildProfile } from './build-profile.js';
 import { renderCards } from './cards/index.js';
 import { fetchRawProfile } from './github.js';
+import { withTimestamp } from './readme.js';
 
 const OUT = new URL('../profile-output/', import.meta.url);
+const README = new URL('../README.md', import.meta.url);
 
 async function main(): Promise<void> {
   const token = process.env.GH_TOKEN;
@@ -14,6 +16,7 @@ async function main(): Promise<void> {
   const profile = buildProfile(await fetchRawProfile(token, now), now);
   mkdirSync(OUT, { recursive: true });
   renderCards(profile).forEach(({ file, svg }) => writeFileSync(new URL(file, OUT), svg));
+  writeFileSync(README, withTimestamp(readFileSync(README, 'utf8'), now));
   console.log(
     `Wrote cards: ${profile.stats.commits} commits, ${profile.stats.repos} repos, ` +
     `${profile.languages.length} languages.`,

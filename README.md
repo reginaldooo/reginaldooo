@@ -1,7 +1,10 @@
-## Hi, I'm Regin 👋
+## Hello, I'm Regin 👋
 
 **Problem first. Then build.**
-I start with the problem, then learn whatever it takes to solve it, across design, data, AI and the web.
+
+I'm Reginaldo Ahnaf from Indonesia. I start with the problem, then learn whatever it takes to solve it, across design, data, AI and the web.
+
+Hand me a dataset with an engine in it, a pit lane or a pipeline, and I lose track of time. Lately that has meant scoring pit stops, rating drivers across seven decades, and hunting for where oil and gas fields leak value. Same habit every time, find the question behind the numbers.
 
 <p>
   <a href="mailto:farrelreginaldoahnaf@gmail.com"><img src="https://img.shields.io/badge/Email-e22718?style=flat-square&logo=gmail&logoColor=white" alt="Email"></a>
@@ -20,11 +23,3 @@ I start with the problem, then learn whatever it takes to solve it, across desig
 </p>
 
 <sub><!--UPDATED-->Last updated on 01/11/2026 01:19:09 UTC<!--/UPDATED--> · refreshed every 6 hours</sub>
-
-### Selected work
-
-- [F1 Advanced Analytics](https://github.com/reginaldooo/F1-advanced-analytics): seven decades of Formula 1, clustered and rated across eras
-- [Pit Stop Risk Engine](https://github.com/reginaldooo/pit-stop-risk-engine): scores every F1 pit stop against the gap the crew was racing
-- [Hybrid News Agent](https://github.com/reginaldooo/hybrid-news-agent): n8n pipeline splitting work between a local and a cloud LLM
-- [AI Sales Agent](https://github.com/reginaldooo/n8n-rag-sales-agent): RAG agent that answers inbound inquiries from real portfolio data
-- [Graduation Prediction](https://github.com/reginaldooo/student-graduation-prediction): Random Forest study, published in JITECS 2025

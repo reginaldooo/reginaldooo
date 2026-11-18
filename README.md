@@ -20,4 +20,4 @@ Hand me a dataset with an engine in it, a pit lane or a pipeline, and I lose tra
   <img src="./profile-output/languages.svg" width="49%" alt="Top languages by commits">
 </p>
 
-<sub><!--UPDATED-->Last updated on 17/11/2026 23:54:36 UTC<!--/UPDATED--> · refreshed every 6 hours</sub>
+<sub><!--UPDATED-->Last updated on 18/11/2026 14:25:54 UTC<!--/UPDATED--> · refreshed every 6 hours</sub>
